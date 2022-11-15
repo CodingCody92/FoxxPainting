@@ -14,6 +14,74 @@
     text-decoration: none;
 }
 
+.active {
+    background-color: rgb(238, 238, 238);
+    box-shadow: rgba(0, 0, 0, .1);
+    border: none;
+}
+
+@media(max-width: 991px) {
+    header {
+        padding: 20px;
+    }
+    header label {
+        display: initial;
+        color: $blueColor;
+    }
+    header .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: rgb(215, 221, 221);
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        display: none;
+    }
+    header .btn {
+        display: none;
+    }
+    header .navbar ul li {
+        width: 100%;
+    }
+    #menu-bar:checked~.navbar {
+        display: initial;
+        transition: ease-in;
+    }
+    #appoint {
+        display: initial;
+    }
+}
+
+@media(max-width: 500px) {
+    .logo {
+        width: 100px;
+    }
+}
+
+@media(max-width: 515px) {
+    .provide-ctn img {
+        height: 250px;
+        width: 250px;
+    }
+}
+
+@media(max-width: 430px) {
+    .front-ctn a {
+        padding: 8px;
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 350px) {
+    .services .serv-img {
+        height: 175px;
+        width: 175px;
+    }
+    .services p {
+        font-size: 15px;
+    }
+}
+
 @media(max-width: 775px) {
     .front-ctn #promo {
         width: 400px;
