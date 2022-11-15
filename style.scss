@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+@import './components/variables';
+@import './components/front';
+@import './components/nav';
+@import './components/provide';
+@import './components/about';
+// @import './components/homefront';
+// ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// mobile functionality 
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+@media(max-width: 775px) {
+    .front-ctn #promo {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media(max-width: 600px) {
+    .front-ctn #promo {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media(max-width: 1300px) {
+    .serv-ctn {
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 1300px) {
+    .abt-ctn {
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 1175px) {
+    .abt-info {
+        margin: 10px;
+    }
+}

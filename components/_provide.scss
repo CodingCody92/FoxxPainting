@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Merriweather:wght@700&family=Playfair+Display:wght@700&display=swap');
+@mixin flexBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.provide-ctn {
+    @include flexBody();
+}
+
+.provide-ctn img {
+    width: 450px;
+    height: 450px;
+}
+
+.serv-ctn {
+    @include flexBody();
+}
+
+.services {
+    margin: 0 60px;
+    padding: 50px;
+}
+
+.services .serv-img {
+    width: 230px;
+    height: 230px;
+}
+
+.services p {
+    text-align: center;
+    margin: 10px;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear {
+    opacity: 1;
+}
