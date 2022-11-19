@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Merriweather:wght@700&family=Playfair+Display:wght@700&family=Poppins&family=Roboto:wght@700&family=Source+Sans+Pro:wght@300;400&display=swap');
 // @mixin navFlex {
 //     display: flex;
 //     justify-content: space-between;
@@ -113,6 +114,7 @@ header {
     right: 0;
     background: rgb(255, 255, 255);
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    border-bottom: 3px solid blue;
     padding: 10px;
     z-index: 1000;
     height: 8em;
@@ -139,15 +141,16 @@ header .navbar ul li {
 }
 
 header .navbar ul li a {
-    font-size: 20px;
+    font-size: 15px;
     display: block;
     text-decoration: $noDecor;
     color: rgb(12, 12, 12);
     padding: 20px;
+    font-family: 'Poppins', sans-serif;
 }
 
 header .navbar ul li a:hover {
-    background: rgb(13, 73, 122);
+    background: #132DDB;
     padding: 13px;
     color: rgb(255, 255, 255);
     border-radius: 10px;

@@ -1,0 +1,44 @@
+@import './variables';
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Merriweather:wght@700&family=Playfair+Display:wght@700&family=Roboto:wght@700&family=Source+Sans+Pro:wght@300;400&display=swap');
+@mixin flexBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.esti-ctn {
+    @include flexBody();
+    flex-direction: column;
+    padding: 20px;
+}
+
+.esti-ctn h1,
+p {
+    color: #fff;
+}
+
+.esti-ctn h1 {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.estimate {
+    background-color: #132DDB;
+}
+
+.esti-ctn a {
+    color: rgb(249, 247, 247);
+    font-size: 20px;
+    margin-top: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: #d31515;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.esti-ctn a:hover {
+    color: #fff;
+    transition: all .1s ease-in;
+    background-color: #a51111;
+}
