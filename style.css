@@ -286,13 +286,6 @@ header .btn:hover {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-.abt-txt {
-  padding: 1.3em;
-  width: 350px;
-  height: 300px;
-  background-color: #fff;
-}
-
 .card-title {
   color: #132DDB;
 }
@@ -362,11 +355,6 @@ header .btn:hover {
   padding: 20px;
 }
 
-.esti-ctn h1,
-p {
-  color: #fff;
-}
-
 .esti-ctn h1 {
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
@@ -392,6 +380,15 @@ p {
   -webkit-transition: all .1s ease-in;
   transition: all .1s ease-in;
   background-color: #a51111;
+}
+
+.abt-info-ctn {
+  padding: 3em;
+}
+
+.abt-info-p {
+  margin: 2em;
+  width: 80%;
 }
 
 * {
